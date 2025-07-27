@@ -7,7 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.1-alpha] - 2025-07-27
+
 ### Added
 - EmbeddedResourcePropertyGenerator code, converted to generate string constants for additional text files in a project
 
-[Unreleased]: https://github.com/datacute/AdditionalTextConstantGenerator/compare/develop...main
+[Unreleased]: https://github.com/datacute/AdditionalTextConstantGenerator/compare/0.0.1-alpha...develop
+[0.0.1-alpha]: https://github.com/datacute/AdditionalTextConstantGenerator/releases/tag/0.0.1-alpha
