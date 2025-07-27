@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+- Multi-line constants shouldn't be written with indenting
+
 ## [0.0.1-alpha] - 2025-07-27
 
 ### Added
