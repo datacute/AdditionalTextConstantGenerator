@@ -1,0 +1,5 @@
+<Project>
+	<PropertyGroup>
+		<VersionSuffix>alpha.$(GITHUB_RUN_NUMBER)</VersionSuffix>
+	</PropertyGroup>
+</Project>
