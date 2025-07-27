@@ -1,0 +1,19 @@
+<Project>
+
+	<Import Project="version.props" />
+
+	<PropertyGroup>
+		<Authors>Stephen Denne</Authors>
+		<Copyright>Copyright © Stephen Denne 2024, 2025</Copyright>
+		<Company>Datacute</Company>
+		<PackageProjectUrl>https://github.com/datacute/AdditionalTextConstantGenerator</PackageProjectUrl>
+		<PackageReleaseNotes>See full release notes and changelog: $(PackageProjectUrl)/blob/main/CHANGELOG.md</PackageReleaseNotes>
+		<CheckEolTargetFramework>false</CheckEolTargetFramework>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<NoPackageAnalysis>true</NoPackageAnalysis>
+		<PackageOutputPath>$(MSBuildThisFileDirectory)\artifacts</PackageOutputPath>
+	</PropertyGroup>
+
+</Project>

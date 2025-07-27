@@ -1,0 +1,9 @@
+<Project>
+	<PropertyGroup Condition="'$(BuildingInsideVisualStudio)' != 'true'">
+		<VersionSuffix>dev-$([System.DateTime]::UtcNow.ToString("yyyyMMdd-HHmmss"))</VersionSuffix>
+	</PropertyGroup>
+	<!-- Visial Studio repeatedly refreshes nuget packages if a timestamp is used -->
+	<PropertyGroup Condition="'$(BuildingInsideVisualStudio)' == 'true'">
+		<VersionSuffix>dev</VersionSuffix>
+	</PropertyGroup>
+</Project>

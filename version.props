@@ -1,0 +1,14 @@
+<Project>
+	<PropertyGroup>
+		<VersionPrefix>0.0.1</VersionPrefix>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<!-- Default to 'local' if no profile is specified -->
+		<VersionProfile Condition=" '$(VersionProfile)' == '' ">local</VersionProfile>
+	</PropertyGroup>
+
+	<!-- Import the correct versioning file based on the profile -->
+	<Import Project="versionsuffix.$(VersionProfile).props" />
+
+</Project>
