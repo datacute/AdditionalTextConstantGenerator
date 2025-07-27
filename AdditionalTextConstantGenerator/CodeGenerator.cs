@@ -101,11 +101,13 @@ namespace Datacute.AdditionalTextConstantGenerator
 
                     var additionalTextFileName = additionalTextFilePath.GetFileName();
 
-                    Buffer.AppendFormatLines(Templates.StringConstantTemplate,
-                        stringConstantName,
+                    Buffer.AppendFormatLines(Templates.StringConstantDocCommentTemplate,
                         additionalTextFileName,
-                        docCommentCode,
-                        text.TextContent);
+                        docCommentCode);
+
+                    Buffer.AppendLine(string.Format(Templates.StringConstantTemplate,
+                        stringConstantName,
+                        text.TextContent));
                 }
             }
         }

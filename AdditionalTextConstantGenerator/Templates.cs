@@ -53,15 +53,17 @@ namespace Datacute.AdditionalTextConstantGenerator
 /// </remarks>
 ";
 
-        public const string StringConstantTemplate = /* language=c# */
+        public const string StringConstantDocCommentTemplate = /* language=c# */
             @"
-/// <summary>Text value of the Additional Text: {1}</summary>
+/// <summary>Text value of the Additional Text: {0}</summary>
 /// <value>
-/// <code>{2}
+/// <code>{1}
 /// </code>
 /// </value>
-public const string {0} = @""{3}"";
 ";
+
+        public const string StringConstantTemplate = /* language=c# */
+            @"public const string {0} = @""{1}"";";
 
         public const string DesignTimeStringConstantTemplate = /* language=c# */
             @"public const string {0} => ""Design Time"";";
