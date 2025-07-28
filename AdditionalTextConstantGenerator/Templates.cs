@@ -10,7 +10,7 @@
             @"
 namespace Datacute.AdditionalTextConstantGenerator
 {
-    [global::System.AttributeUsage(global::System.AttributeTargets.Class, AllowMultiple = false), global::Microsoft.CodeAnalysis.Embedded]
+    [global::System.AttributeUsage(global::System.AttributeTargets.Class, AllowMultiple = false)]
     internal sealed class AdditionalTextConstantsAttribute : global::System.Attribute
     {
         /// <summary>

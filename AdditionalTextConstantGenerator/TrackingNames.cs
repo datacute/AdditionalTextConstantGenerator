@@ -10,9 +10,9 @@ namespace Datacute.AdditionalTextConstantGenerator
         AttributeGlobsSelected = 142,             // Helper: Just Path/Extension for resource matching
         FileInfoAndGlobsCombined = 143,          // Step 4b: FileInfo combined with ResourceGlobs
         MatchingFilesFiltered = 144,             // Step 4c: Files filtered by glob match
-        AdditionalTextExtracted = 146,         // Step 4d: EmbeddedResource created (with FileAndGlobs info)
+        AdditionalTextExtracted = 146,         // Step 4d: AdditionalText Content created (with FileAndGlobs info)
         AdditionalTextAndAllAttributeGlobsCombined = 147, // Step 4e: Resource/File data combined with all AttributeGlobInfo
-        MatchingTextAndAttributeSelected = 148, // Step 4f: (AttributeContext, EmbeddedResource) selected
+        MatchingTextAndAttributeSelected = 148, // Step 4f: (AttributeContext, AdditionalText) selected
         AdditionalTextsGroupedByAttributeContext = 150, // Step 5: Resources grouped into lookup
         GenerationInputPrepared = 160,           // Step 6: Final data prepared for output (AttributeContext, Resources, Options)
 
