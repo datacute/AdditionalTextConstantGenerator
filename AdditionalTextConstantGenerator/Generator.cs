@@ -16,7 +16,6 @@ namespace Datacute.AdditionalTextConstantGenerator
 
             context.RegisterPostInitializationOutput(c =>
             {
-                c.AddEmbeddedAttributeDefinition();
                 c.AddSource($"Datacute.Attributes.AdditionalTextConstantsAttribute.g.cs", Templates.AttributeClass);
             });
             
