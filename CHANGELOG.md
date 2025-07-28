@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.0] - 2025-07-28
+
+### Fixed
+- Updated `Datacute.IncrementalGeneratorExtensions` to fix broken embedded attribute usage 
+
 ## [0.0.2-alpha] - 2025-07-27
 
 ### Fixed
@@ -17,6 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - EmbeddedResourcePropertyGenerator code, converted to generate string constants for additional text files in a project
 
-[Unreleased]: https://github.com/datacute/AdditionalTextConstantGenerator/compare/0.0.2-alpha...develop
+[Unreleased]: https://github.com/datacute/AdditionalTextConstantGenerator/compare/1.0.0...develop
+[1.0.0]: https://github.com/datacute/AdditionalTextConstantGenerator/releases/tag/1.0.0
 [0.0.2-alpha]: https://github.com/datacute/AdditionalTextConstantGenerator/releases/tag/0.0.2-alpha
 [0.0.1-alpha]: https://github.com/datacute/AdditionalTextConstantGenerator/releases/tag/0.0.1-alpha
