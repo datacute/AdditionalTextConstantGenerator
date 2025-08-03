@@ -1,5 +1,5 @@
 <Project>
 	<PropertyGroup>
-<!--		<VersionSuffix>alpha</VersionSuffix>-->
+		<VersionSuffix>alpha</VersionSuffix>
 	</PropertyGroup>
 </Project>
